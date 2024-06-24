@@ -21,7 +21,7 @@ public class Main {
             Microsoft Edge Web Sürücüsü | Microsoft Edge Geliştiricisi: https://developer.microsoft.com/tr-tr/microsoft-edge/tools/webdriver/?form=MA13LH#downloads
             Kararlı Kanal – x64 -> Download to: C:\\bin\\selenium\\edgedriver_win64\\msedgedriver.exe
          */
-
+        
         System.setProperty("webdriver.edge.driver", "C:\\bin\\selenium\\edgedriver_win64\\msedgedriver.exe");
         WebDriver driver = new EdgeDriver();
         driver.manage().window().maximize();
