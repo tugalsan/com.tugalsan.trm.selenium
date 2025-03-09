@@ -11,7 +11,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 public class Main {
 
     final private static TS_Log d = TS_Log.of(Main.class);
-    final private static TS_ThreadSyncTrigger killTrigger = TS_ThreadSyncTrigger.of();
+    final private static TS_ThreadSyncTrigger killTrigger = TS_ThreadSyncTrigger.of("main");
 
     //cd C:\me\codes\com.tugalsan\trm\com.tugalsan.trm.selenium
     //java --enable-preview --add-modules jdk.incubator.vector -jar target/com.tugalsan.trm.selenium-1.0-SNAPSHOT-jar-with-dependencies.jar
